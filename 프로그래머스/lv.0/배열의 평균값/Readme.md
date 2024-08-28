@@ -6,3 +6,8 @@
 3.	a + b는 현재까지의 누적 합계를 계산합니다.
 4.	초기값은 0으로 설정되었으므로, 첫 번째 요소는 a + b가 됩니다.
 5.	이 과정을 거쳐 numbers 배열의 모든 요소가 더해져서 answer 변수에 저장됩니다.
+
+
+## vscode 사용했을 때 탐색기에 하위 폴더가 /로 표시되어 깃허브에도 영향을 준 상황
+1. 해결방안으로 vscode 설정창으로 간다음, cmd + , 으로 설정창에 간다.
+2. 설정창에서 explorer.compactFolders를 검색 후에 Explorer: Compact Folders 체크 해제 
