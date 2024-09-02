@@ -15,7 +15,7 @@ function solution(angle) {
     return result
 }
 
-///////////////////////////////////////
+
 // 올바른 풀이
 
 function solution(angle) {
@@ -32,4 +32,24 @@ function solution(angle) {
         result = 4
     } 
     return result
+}
+
+
+// 다른 풀이
+
+//삼항 연산자
+function solution(angle) {
+    return angle < 90 ? 1 : angle === 90 ? 2 : angle < 180 ? 3 : 4;
+}
+
+//후위 증가 연산자
+function solution(angle) {
+    let answer = 1;
+
+    if (angle >= 90) answer++;
+    if (angle > 90) answer++;
+    if (angle >= 180) answer++;
+    if (angle > 180) answer++;
+
+    return answer;
 }
